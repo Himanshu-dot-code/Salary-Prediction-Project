@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load trained model pipeline
-with open('D:\PROJECTS\salary_model.pkl', 'rb') as f:
+with open('salary_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.title("💰 Salary Prediction App")

@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 import pickle
 
 # Load dataset
-data = pd.read_csv('D:\PROJECTS\Salary-Prediction-Project\data\salary_data.csv')
+data = pd.read_csv('data\salary_data.csv')
 
 # Features and target
 X = data[['YearsExperience', 'JobType', 'EducationLevel']]
